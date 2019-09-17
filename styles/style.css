@@ -1,0 +1,20 @@
+.homelogo {
+    height: 50px;
+    width: 50px;
+}
+.navbar-nav {
+    text-align: right;
+}
+nav a {
+    padding: 5px 5px;
+    font-family: 'Caveat Brush', sans-serif;
+    font-size: large;
+}
+.navbar .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00ffff');
+}
+nav a:hover {
+    background-color: #00cccc;
+    color: white;
+    display: inline-block;
+}
