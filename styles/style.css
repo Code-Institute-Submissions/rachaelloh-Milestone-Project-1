@@ -1,15 +1,26 @@
+/*For artist's logo linking to homepage*/
+
 .homelogo {
     height: 50px;
     width: 50px;
 }
+
+/*For toggling, text will align right*/
+
 .navbar-nav {
     text-align: right;
 }
+
+/*For texts in navbar*/
+
 nav a {
     padding: 5px 5px;
     font-family: 'Caveat Brush', sans-serif;
     font-size: large;
 }
+
+/*For styling of toggler*/
+
 .navbar .navbar-toggler-icon {
 background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00ffff');
 }
@@ -18,7 +29,47 @@ nav a:hover {
     color: white;
     display: inline-block;
 }
-.carousel-item {
-    height: 500px;
+
+/*Opening images of website*/
+
+.carousel-inner img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    opacity: 0.7;
     width: 100vw;
+    height: auto;
+    max-height: 100vh;
+    bottom: 0;
+}
+.firstheading {
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    font-size: larger;
+    text-shadow: 5px 5px 4px;
+}
+.quote-text {
+    font-family: 'Caveat Brush', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*Homepage animation*/
+
+.fade {
+    animation: fadein 3s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.fade2 {
+    animation: fadein 8s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
