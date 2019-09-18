@@ -42,12 +42,20 @@ nav a:hover {
     max-height: 100vh;
     bottom: 0;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Dancing Script', sans-serif;
+  color: #DAA520;
+  font-size: 300%;
+}
 .firstheading {
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
     text-shadow: 5px 5px 4px;
     color: #DAA520;
-    font-size: 200%;
 }
 .biobackground{
     background-color: #FFFCFC;
@@ -108,10 +116,16 @@ nav a:hover {
 
 /*FOR FEATURES SECTION*/
 
-.container {
+.featuresheading {
+    margin-top: 60px;
+}
+.container img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.caption {
+    word-wrap: break-word;
 }
 
 /*FOR FOOTER*/
