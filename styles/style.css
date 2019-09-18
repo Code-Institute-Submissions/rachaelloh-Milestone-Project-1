@@ -85,6 +85,35 @@ nav a:hover {
     }
 }
 
+/*FOR FORM SECTION*/
+
+.formbackground {
+    margin-top: 5vw;
+    background-color: #e0ebeb;
+    padding: 2vw;
+}
+.col-md-8 {
+    max-width: 66.666667%;
+}
+.button-submit {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button-submit:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+/*FOR FEATURES SECTION*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*FOR FOOTER*/
 
 .social-links li a i {
