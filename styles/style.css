@@ -15,17 +15,17 @@
 
 nav a {
     padding: 5px 5px;
-    font-family: 'Caveat Brush', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-size: large;
 }
 
 /*FOR STYLING OF TOGGLER*/
 
 .navbar .navbar-toggler-icon {
-background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00ffff');
+background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=black');
 }
 nav a:hover {
-    background-color: #00cccc;
+    background-color: #FFEFF0;
     color: white;
     display: inline-block;
 }
@@ -45,23 +45,34 @@ nav a:hover {
 .firstheading {
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
-    font-size: larger;
     text-shadow: 5px 5px 4px;
+    color: #DAA520;
+    font-size: 200%;
+}
+.biobackground{
+    background-color: #FFFCFC;
+
 }
 .quote-text {
-    font-family: 'Caveat Brush', sans-serif;
-    margin-top: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 30px;
     margin-left: 20px;
+    
 }
 /*HOMEPAGE ANIMATION*/
 
 .fade {
-    animation: fadein 3s infinite;
+    animation: fadein 5s infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
 }
 .fade2 {
-    animation: fadein 8s infinite;
+    animation: fadein 10s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.fade3 {
+    animation: fadein 15s infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
 }
@@ -116,6 +127,8 @@ nav a:hover {
         padding-left: 10px;
         padding-top: 20px;
 }
-.col-md-6 {
-          width: 50%;
-      }
+.about, p {
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+}
