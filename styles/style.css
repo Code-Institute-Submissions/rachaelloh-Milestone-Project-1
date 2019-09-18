@@ -1,17 +1,17 @@
-/*For artist's logo linking to homepage*/
+/*FOR ARTIST'S LOGO LINKING TO HOMEPAGE*/
 
 .homelogo {
     height: 50px;
     width: 50px;
 }
 
-/*For toggling, text will align right*/
+/*FOR TOGGLING, TEXT WILL ALIGN RIGHT*/
 
 .navbar-nav {
     text-align: right;
 }
 
-/*For texts in navbar*/
+/*FOR TEXTS IN NAVBAR*/
 
 nav a {
     padding: 5px 5px;
@@ -19,7 +19,7 @@ nav a {
     font-size: large;
 }
 
-/*For styling of toggler*/
+/*FOR STYLING OF TOGGLER*/
 
 .navbar .navbar-toggler-icon {
 background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00ffff');
@@ -30,7 +30,7 @@ nav a:hover {
     display: inline-block;
 }
 
-/*Opening images of website*/
+/*OPENING IMAGES OF WEBSITE*/
 
 .carousel-inner img {
     margin-left: auto;
@@ -53,7 +53,7 @@ nav a:hover {
     margin-top: 20px;
     margin-left: 20px;
 }
-/*Homepage animation*/
+/*HOMEPAGE ANIMATION*/
 
 .fade {
     animation: fadein 3s infinite;
@@ -73,3 +73,49 @@ nav a:hover {
         opacity: 1;
     }
 }
+
+/*FOR FOOTER*/
+
+.social-links li a i {
+	    padding: 10px;
+	    color: #FFFFFF;
+	    transition: all 0.35s ease-in-out;
+	    -moz-transition: all 0.35s ease-in-out;
+	    -webkit-transition: all 0.35s ease-in-out;
+	    -o-transition: all 0.35s ease-in-out;
+	}
+.list {
+    list-style: none;
+}
+	
+	.social-links li a i:hover {
+	    color: #8B0000;
+	}
+
+/*BIO PAGE*/
+
+.bio-background {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.bio-quote {
+        text-align: center;
+        padding: 100px 20px;
+        }
+    
+.bio-parallax {
+        background-position: center;
+        background-repeat: repeat-y;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        padding-left: 10px;
+        padding-top: 20px;
+}
+.col-md-6 {
+          width: 50%;
+      }
