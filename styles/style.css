@@ -114,38 +114,6 @@ nav a:hover {
   color: white;
 }
 
-/*FOR FEATURES SECTION*/
-
-.featuresheading {
-    margin-top: 60px;
-}
-.container img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.caption {
-    word-wrap: break-word;
-}
-
-/*FOR FOOTER*/
-
-.social-links li a i {
-	    padding: 10px;
-	    color: #FFFFFF;
-	    transition: all 0.35s ease-in-out;
-	    -moz-transition: all 0.35s ease-in-out;
-	    -webkit-transition: all 0.35s ease-in-out;
-	    -o-transition: all 0.35s ease-in-out;
-	}
-.list {
-    list-style: none;
-}
-	
-	.social-links li a i:hover {
-	    color: #8B0000;
-	}
-
 /*BIO PAGE*/
 
 .bio-background {
@@ -175,3 +143,57 @@ nav a:hover {
     color: white;
     font-weight: bold;
 }
+
+/*FOR FEATURES SECTION*/
+
+.featuresheading {
+    margin-top: 60px;
+}
+.container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caption {
+    word-wrap: break-word;
+}
+
+/*FOR GALLERY*/
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+/*FOR FOOTER*/
+
+.social-links li a i {
+	    padding: 10px;
+	    color: #FFFFFF;
+	    transition: all 0.35s ease-in-out;
+	    -moz-transition: all 0.35s ease-in-out;
+	    -webkit-transition: all 0.35s ease-in-out;
+	    -o-transition: all 0.35s ease-in-out;
+	}
+.list {
+    list-style: none;
+}
+	
+	.social-links li a i:hover {
+	    color: #8B0000;
+	}
