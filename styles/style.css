@@ -44,7 +44,7 @@ nav a:hover {
 }
 .centered {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Dancing Script', sans-serif;
@@ -116,11 +116,6 @@ nav a:hover {
 
 /*BIO PAGE*/
 
-.centered {
-    padding:10px;
-    width:280px;
-    background: rgba(204, 204, 204, 0.5);
-}
 .bio-background {
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -192,18 +187,81 @@ div.gallery img {
 
 /*FOR FOOTER*/
 
-.social-links li a i {
-	    padding: 10px;
-	    color: #FFFFFF;
-	    transition: all 0.35s ease-in-out;
-	    -moz-transition: all 0.35s ease-in-out;
-	    -webkit-transition: all 0.35s ease-in-out;
-	    -o-transition: all 0.35s ease-in-out;
-	}
-.list {
-    list-style: none;
+p.copyright {
+    color: black;
+    line-height: 50px;
+    font-size: 1em;
+    position: absolute;
+    width: 100%;
+    text-align: left;
 }
-	
-	.social-links li a i:hover {
-	    color: #8B0000;
-	}
+footer.footer {
+    width: 100%;
+    position: relative;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoInstagram:hover {
+	background-color:#fe4164;
+}
+.social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoInstagram:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:0%;
+	-webkit-border-radius:50%;
+	border-radius:60%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	background-color: #D3D3D3;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
