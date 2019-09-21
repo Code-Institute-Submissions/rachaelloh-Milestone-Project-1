@@ -91,6 +91,9 @@ nav a:hover {
 
 /*FOR FORM SECTION*/
 
+form {
+    font-family: 'Concert One', sans-serif;
+}
 .formbackground {
     margin-top: 5vw;
     background-color: #e0ebeb;
@@ -137,12 +140,18 @@ nav a:hover {
         padding-left: 10px;
         padding-top: 20px;
 }
+.bio-text {
+    font-family: 'Concert One', sans-serif;
+}
 
 .about, p {
     color: black;
     font-weight: bold;
     width: auto;
     background: rgba(204, 204, 204, 0.5);
+}
+p {
+    font-size: large;
 }
 
 /*FOR FEATURES SECTION*/
@@ -186,11 +195,13 @@ div.gallery img {
 p.copyright {
     color: black;
     line-height: 50px;
-    font-size: 1em;
+    font-size: 1.5em;
     position: absolute;
     width: 100%;
     text-align: left;
+    font-family: 'Dancing Script', sans-serif;
 }
+
 footer.footer {
     width: 100%;
     position: relative;
