@@ -89,29 +89,6 @@ nav a:hover {
     }
 }
 
-/*FOR FORM SECTION*/
-
-form {
-    font-family: 'Concert One', sans-serif;
-}
-.formbackground {
-    margin-top: 5vw;
-    background-color: #e0ebeb;
-    padding: 2vw;
-}
-.col-md-8 {
-    max-width: 66.666667%;
-}
-.button-submit {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
-}
-
-.button-submit:hover {
-  background-color: #008CBA;
-  color: white;
-}
 
 /*BIO PAGE*/
 
@@ -158,6 +135,7 @@ p {
 
 .featuresheading {
     margin-top: 60px;
+    font-family: 'Concert One', sans-serif;
 }
 .container img {
     display: flex;
@@ -166,6 +144,30 @@ p {
 }
 .caption {
     word-wrap: break-word;
+    font-family: 'Concert One', sans-serif;
+}
+/*FOR FORM SECTION*/
+
+form {
+    font-family: 'Concert One', sans-serif;
+}
+.formbackground {
+    margin-top: 5vw;
+    background-color: #e0ebeb;
+    padding: 2vw;
+}
+.col-md-8 {
+    max-width: 66.666667%;
+}
+.button-submit {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button-submit:hover {
+  background-color: #008CBA;
+  color: white;
 }
 
 /*FOR GALLERY*/
