@@ -66,20 +66,34 @@ nav a:hover {
 /*HOMEPAGE ANIMATION*/
 
 .fade {
-    animation: fadein 5s infinite;
+    animation: fadein 4s infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
+    color: #bf80ff;
 }
 .fade2 {
-    animation: fadein 10s infinite;
+    animation: fadein 7s infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
+    color: #ffb84d;
 }
 .fade3 {
-    animation: fadein 15s infinite;
+    animation: fadein 11s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    color: teal;
+}
+.fade4 {
+    animation: fadein 9s infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
 }
+.fade5 {
+    animation: fadein 11s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
 @keyframes fadein {
     from {
         opacity: 0;
