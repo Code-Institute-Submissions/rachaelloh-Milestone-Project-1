@@ -44,12 +44,12 @@ nav a:hover {
 }
 .centered {
   position: absolute;
-  top: 18%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Dancing Script', sans-serif;
   color: #DAA520;
-  font-size: 300%;
+  font-size: 5vw;
   text-shadow: 4px 4px 4px;
 }
 
@@ -150,6 +150,7 @@ p {
 .featuresheading {
     margin-top: 60px;
     font-family: 'Concert One', sans-serif;
+    width: 100%;
 }
 .container img {
     display: flex;
