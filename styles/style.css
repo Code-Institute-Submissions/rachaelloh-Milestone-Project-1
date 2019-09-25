@@ -156,7 +156,7 @@ p {
     font-family: 'Concert One', sans-serif;
     font-size: 150%;
 }
-img, iframe {
+img {
     width:100%;
     height:auto;
 }
