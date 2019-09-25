@@ -156,9 +156,9 @@ p {
     font-family: 'Concert One', sans-serif;
     font-size: 150%;
 }
-.responsive {
-  max-width: 100%;
-  height: auto;
+img {
+    width:100%;
+    height:auto;
 }
 
 /*FOR FORM SECTION*/
