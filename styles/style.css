@@ -152,16 +152,7 @@ p {
     font-family: 'Concert One', sans-serif;
     width: 100%;
 }
-.container img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.caption {
-    word-wrap: break-word;
-    font-family: 'Concert One', sans-serif;
-    font-size: 150%;
-}
+
 /*FOR FORM SECTION*/
 
 form {
