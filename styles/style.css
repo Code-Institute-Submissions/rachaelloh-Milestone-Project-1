@@ -112,7 +112,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: auto;
 }
 
 .bio-quote {
@@ -127,7 +127,7 @@ nav a:hover {
         background-repeat: repeat-y;
         background-size: cover;
         height: 100vh;
-        width: 100vw;
+        width: auto;
         padding-left: 10px;
         padding-top: 20px;
 }
@@ -144,23 +144,6 @@ nav a:hover {
 p {
     font-size: large;
 }
-
-/*FOR FEATURES SECTION*/
-
-.featuresheading {
-    margin-top: 60px;
-    font-family: 'Concert One', sans-serif;
-    width: 100%;
-}
-.caption {
-    font-family: 'Concert One', sans-serif;
-    font-size: 150%;
-}
-img {
-    width:100%;
-    height:auto;
-}
-
 /*FOR FORM SECTION*/
 
 form {
@@ -183,6 +166,22 @@ form {
 .button-submit:hover {
   background-color: #008CBA;
   color: white;
+}
+
+/*FOR FEATURES SECTION*/
+
+.featuresheading {
+    margin-top: 60px;
+    font-family: 'Concert One', sans-serif;
+    width: 100%;
+}
+.caption {
+    font-family: 'Concert One', sans-serif;
+    font-size: 150%;
+}
+img {
+    width:100%;
+    height:auto;
 }
 
 /*FOR GALLERY*/
