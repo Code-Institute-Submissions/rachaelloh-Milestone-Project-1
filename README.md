@@ -19,9 +19,13 @@ A live website can be found here https://rachaelloh.github.io/Milestone-Project-
 
 ### Scope
 The website will be designed based on the identified goals and hence placed in the following sections:
+
 Home page- Landing page with carousel (image slides) and quotes by artist through interviews.
+
 Bio page- Short “About” section to introduce the artist, contact form at the bottom of page
+
 Features page- Some of the featured artist’s work will be shown in this page + video of an interview
+
 Gallery page- More of artist’s artworks 
 
 ### Wireframes
@@ -35,10 +39,44 @@ Gallery page- More of artist’s artworks
 * [Font Awesome](https://fontawesome.com/) - Icons are taken from font awesome for my navbar, etc.
 
 ## Features
+-Basic styling of the website was taken from bootstrap which was further customized to suit the accessibility and aesthetics of the website. Stylings out of bootstrap was done through the use of CSS.
+
+-Favicon placed in header of every page as an iconic image that represents the website, in this case it is about an artist, Jonathan Lim. The icon appears at the address bar of the web browser.
+
+-Background attachment of artist’s work, another background attachment of artist with a short “About” section to introduce the artist, form at the bottom of page
+
+-Animations used in the home page to display quotes by the artist, to evoke user’s interest in wanting to find out more about the artist and his work.
+
+-Font used in quotes was selected to project the artistic feel of the website and easily captures the attention of users.
+
+-The navbar has a fixed top so that it is more user friendly as users can easily access to the different pages without having to scroll back to the top.
+
+-A navbar brand is also included where the logo of the artist is being placed on the left side of the navbar which links to the home page upon clicking.
+
+-Carousel is used in the “Home” page to as a way of introduction to the artist.
+
+-Icons are added in front of each navlink buttons to give more aesthetics to the website.
+
+-Background attachments- alternation between fixed and scroll properties give an interesting effect to attract users.
+
+-Form header includes an icon where it the text and icon will enlarge upon mouseover and back to normal on mouseout. Submit button changes color when hovered over. 
+
+-A video of his interview will be embedded into the “Features” page
+
+-Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover
+
 ## Testing
 ## Known Bug/Issues
 ## Deployment
 ## Credit
 ### Content
+w3school
+mdbootstrap
+code institute
+https://www.yp.sg/whereartjon/
 ### Media
+from artist's instagram page
 ### Design
+LiamD88/milestone-project-1-eminem
+
+**This is for educational use.**
