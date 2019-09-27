@@ -39,6 +39,8 @@ Gallery page- More of artist’s artworks
 * [Font Awesome](https://fontawesome.com/) - Icons are taken from font awesome for my navbar, etc.
 
 ## Features
+**Existing Features**
+
 -Basic styling of the website was taken from bootstrap which was further customized to suit the accessibility and aesthetics of the website. Stylings out of bootstrap was done through the use of CSS.
 
 -Favicon placed in header of every page as an iconic image that represents the website, in this case it is about an artist, Jonathan Lim. The icon appears at the address bar of the web browser.
@@ -65,6 +67,10 @@ Gallery page- More of artist’s artworks
 
 -Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover
 
+**Feature(s) for Future Implementation**
+
+-To make images in gallery page more fun by making the images to be of different sizes.
+
 ## Testing
 The website has been tested on Windows destop/Macbook Air/iPad Mini/iPhone XS/iPhone 6 which covers various screen-size. The browsers used for testings are Google Chrome & Apple Safari.
 
@@ -73,20 +79,37 @@ During the testing process, I found out that:
 -My images were not responsive when I tested on my iPhone XS as it was bigger than the view width. Hence, I changed the image width to be 100% and the height to be auto. The images are now responsive on the devices that I tested out on.
 
 -My footer seemed to clump together when I tested it on my iPad mini while it looked find on the other devices. Hence,
+
+All the links on the navbar will link users to the pages that they want to go. At the page that users are at, the navlink will be darker than the rest. When hovered over, the navlinks will have a translucent background to show that user's mouse is at the particular link.
+
+All the social media buttons has been linked directly to artist's instagram page. The facebook icon links to artist's personal faebook page. The twitter logo links to the twitter sign in page (as 2 icons seem to be too little)
+
+Since this is a static website, when users click on the submit button to submit their messages, they will not see their form being sent or being validated.
+
 ## Known Bug/Issues
 ## Deployment
 My code was written using [AWS Cloud9](https://aws.amazon.com/cloud9/). AWS Cloud9 serves as the local repository which was then deployed to GitHub. Whenever a new commit is done to the master branch, the deployed site will be updated accordingly. To access the project on Github I would visit the GitHub web page and select rachaelloh/milestone-project. I will then click on settings and click master branch. When the master branch is selected, the deployed website will then be available as a clickable link.
 
 This repository can also be deployed locally by cloning the repository. This can be done by going to the main page of the repository to clone/download directly into the editor of choice by pasting git clone into terminal.
 ## Credits
+References were made mainly from [w3schools](www.w3schools.com), [Code Institute LMS](https://codeinstitute.net/), and [stack overflow](https://stackoverflow.com/) throughout the process of developing the website.
+
 ### Content
-w3school
-mdbootstrap
-code institute
-https://www.yp.sg/whereartjon/
+Bootstrap - I used some some codes from bootstrap such as the navbar and carousel; and allowed me to create my website with more efficiency.
+
+[Material Design Bootstrap](https://mdbootstrap.com/) - I got my code from this website to customise the hamburger at the navbar.
+
+[YP SG](https://www.yp.sg/whereartjon/) - Content of his interviews/quotes were taken from this website.
+
 ### Media
-from artist's instagram page
+
+The images and background images/attachments used were taken from artist's [instagram](https://www.instagram.com/whereartjon/?hl=en) page.
+
 ### Design
 Homepage inspirations from https://liamd88.github.io/milestone-project-1-eminem/
+
+
+www.w3schools.com This is where I got the code for my music files to play on my page.
+code institute
 
 **This is for educational use only.**
