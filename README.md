@@ -66,9 +66,19 @@ Gallery page- More of artist’s artworks
 -Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover
 
 ## Testing
+The website has been tested on Windows destop/Macbook Air/iPad Mini/iPhone XS/iPhone 6 which covers various screen-size. The browsers used for testings are Google Chrome & Apple Safari.
+
+During the testing process, I found out that:
+
+-My images were not responsive when I tested on my iPhone XS as it was bigger than the view width. Hence, I changed the image width to be 100% and the height to be auto. The images are now responsive on the devices that I tested out on.
+
+-My footer seemed to clump together when I tested it on my iPad mini while it looked find on the other devices. Hence,
 ## Known Bug/Issues
 ## Deployment
-## Credit
+My code was written using [AWS Cloud9](https://aws.amazon.com/cloud9/). AWS Cloud9 serves as the local repository which was then deployed to GitHub. Whenever a new commit is done to the master branch, the deployed site will be updated accordingly. To access the project on Github I would visit the GitHub web page and select rachaelloh/milestone-project. I will then click on settings and click master branch. When the master branch is selected, the deployed website will then be available as a clickable link.
+
+This repository can also be deployed locally by cloning the repository. This can be done by going to the main page of the repository to clone/download directly into the editor of choice by pasting git clone into terminal.
+## Credits
 ### Content
 w3school
 mdbootstrap
@@ -77,6 +87,6 @@ https://www.yp.sg/whereartjon/
 ### Media
 from artist's instagram page
 ### Design
-LiamD88/milestone-project-1-eminem
+Homepage inspirations from https://liamd88.github.io/milestone-project-1-eminem/
 
-**This is for educational use.**
+**This is for educational use only.**
