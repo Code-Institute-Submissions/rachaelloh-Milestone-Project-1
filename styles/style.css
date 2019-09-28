@@ -219,7 +219,7 @@ p.copyright {
 
 div.footer {
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 ul.social-network {

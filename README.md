@@ -72,7 +72,7 @@ Gallery page- More of artist’s artworks
 -To make images in gallery page more fun by making the images to be of different sizes.
 
 ## Testing
-The website has been tested on Windows destop/Macbook Air/iPad Mini/iPhone XS/iPhone 6 which covers various screen-size. The browsers used for testings are Google Chrome & Apple Safari.
+The website has been tested on **Windows destop/Macbook Air/iPad Mini/iPhone XS/iPhone 6** which covers various screen-size. The browsers used for testings are Google Chrome & Apple Safari.
 
 During the testing process, I found out that:
 
