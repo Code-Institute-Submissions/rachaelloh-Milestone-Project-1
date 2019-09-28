@@ -218,8 +218,8 @@ p.copyright {
 }
 
 div.footer {
-    width: 100%;
-    position: absolute;
+    width: auto;
+    position: relative;
 }
 
 ul.social-network {
