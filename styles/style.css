@@ -111,10 +111,17 @@ nav a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.bio-background2 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: auto;
     width: auto;
 }
-
 .bio-quote {
         text-align: center;
         padding: 100px 20px;

@@ -79,9 +79,9 @@ The website has been tested on **Windows destop/Macbook Air/iPad Mini/iPhone XS/
 
 During the testing process, I found out that:
 
--My images were not responsive when I tested on my iPhone XS as it was bigger than the view width. Hence, I changed the image width to be 100% and the height to be auto. The images are now responsive on the devices that I tested out on.
+-My images were not responsive when I tested on my iPhone XS as it was bigger than the view width. Hence, I changed the image width to be 100% and the height to be auto. The images are now responsive on the devices that I tested out on. On the features page, the footer, particularly the social media links moved to the next line due to the container.
 
--My footer seemed to clump together when I tested it on my iPad mini while it looked find on the other devices. Hence,
+-My copyrigt portion on the footer seemed to shift to the right when I tested it on my iPad mini while it looked fine on the other devices. Hence, I tried to troubleshoot from my iPad. There were several layers of paddings/margins so I removed it and adjusted accoringly. 
 
 All the links on the navbar will link users to the pages that they want to go. At the page that users are at, the navlink will be darker than the rest. When hovered over, the navlinks will have a translucent background to show that user's mouse is at the particular link.
 
