@@ -29,6 +29,9 @@ Features page- Some of the featured artist’s work will be shown in this page +
 Gallery page- More of artist’s artworks 
 
 ### Wireframes
+Find below links for each wireframe I designed for each web page:
+
+[Index & Bio Page]()
 
 ## Technologies Used
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - This was used to structure the layout of the website and build the pages.
