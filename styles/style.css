@@ -111,7 +111,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     width: auto;
 }
 
@@ -139,7 +139,6 @@ nav a:hover {
     color: black;
     font-weight: bold;
     width: auto;
-    background: rgba(204, 204, 204, 0.5);
 }
 p {
     font-size: large;
@@ -211,15 +210,18 @@ p.copyright {
     color: black;
     line-height: 50px;
     font-size: 1.5em;
-    position: absolute;
-    width: 100%;
     text-align: left;
     font-family: 'Dancing Script', sans-serif;
 }
 
+footer.footer {
+    background: rgba(204, 204, 204, 0.5);
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
 div.footer {
     width: 100%;
-    position: fixed;
 }
 
 ul.social-network {

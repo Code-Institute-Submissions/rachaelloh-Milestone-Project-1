@@ -111,8 +111,7 @@ The images and background images/attachments used were taken from artist's [inst
 ### Design
 Homepage inspirations from https://liamd88.github.io/milestone-project-1-eminem/
 
+Social Media Links - [Bootstrap Social Icons](https://embed.plnkr.co/LpJLnT/)
 
-www.w3schools.com This is where I got the code for my music files to play on my page.
-code institute
 
 **This is for educational use only.**
