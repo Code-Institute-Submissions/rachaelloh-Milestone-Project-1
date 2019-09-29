@@ -1,6 +1,6 @@
 # Milestone Project 1
 ## Introduction
-The main purpose of creating this website is to share and promote support for local talent- particularly Jonathan Lim, an artist who depicts seemingly mundane local scenes into something emotional and beautiful.
+The main purpose of creating this website is to share and promote support for local talent- particularly Jonathan Lim, an artist who depicts seemingly mundane local scenes into something emotional and beautiful. The website is a static one.
 
 In this website, Jonathan is introduced along with his artworks. Even though these are scenes that many of us (Singaporeans) see in our daily lives, the artist is able to bring out another side of these scenes and give new perspectives that we seem to take for granted.
 
@@ -8,7 +8,11 @@ In this website, Jonathan is introduced along with his artworks. Even though the
 A live website can be found here https://rachaelloh.github.io/Milestone-Project-1/
 
 ## UX/UI
-### Strategy
+### Project Strategy
+| User Stories        | Description   |  
+| :------------- |:-------------| 
+| 1    | As a local artiste (singer/songwriter), I am looking for a potential collaboration with an artist for my album cover.|
+
 -As a local artiste (singer/songwriter), I am looking for a potential collaboration with an artist for my album cover.  
 
 -As a person who does not know about this artist’s works, I want to know who he is and the inspirations behind his pieces.
@@ -17,7 +21,7 @@ A live website can be found here https://rachaelloh.github.io/Milestone-Project-
 
 -As a supporter, I wish to be kept updated of his works and upcoming exhibitions where I can go for. 
 
-### Scope
+### Project Scope
 The website will be designed based on the identified goals and hence placed in the following sections:
 
 Home page- Landing page with carousel (image slides) and quotes by artist through interviews.
@@ -28,21 +32,28 @@ Features page- Some of the featured artist’s work will be shown in this page +
 
 Gallery page- More of artist’s artworks 
 
-### Wireframes
+(i) Wireframes
 Find below links for each wireframe I designed for each web page:
+[Wireframe Document](https://www.google.com)
+Upload onto your google drive, get a sharable link
 
 [Index & Bio Page]()
 
-## Technologies Used
-* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - This was used to structure the layout of the website and build the pages.
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - This was used to beautify the website and to apply styles on the html.
-* [Javascript/JQuery](https://jquery.com) - This is used in conjunction with bootstrap to allow you to place things on your page that would normally require javascript knowledge.
-* [Bootstrap](https://getbootstrap.com) - Bootstrap is used to ease the structuring and styles of some parts of the website.
-* [Google Fonts](https://fonts.google.com/) - GoogleFonts are used to style the texts.
-* [Font Awesome](https://fontawesome.com/) - Icons are taken from font awesome for my navbar, etc.
 
-## Features
+## Project Skeleton - Features
 **Existing Features**
+
+Homepage
+Features
+-
+-
+-
+
+Contact Page
+-
+-
+-
+
 
 -Basic styling of the website was taken from bootstrap which was further customized to suit the accessibility and aesthetics of the website. Stylings out of bootstrap was done through the use of CSS.
 
@@ -74,20 +85,40 @@ Find below links for each wireframe I designed for each web page:
 
 -To make images in gallery page more fun by making the images to be of different sizes.
 
-## Testing
+## Testing (Manual)
+(i) Mobile Responsiveness
 The website has been tested on **Windows destop/Macbook Air/iPad Mini/iPhone XS/iPhone 6** which covers various screen-size. The browsers used for testings are Google Chrome & Apple Safari.
 
 During the testing process, I found out that:
 
 -My images were not responsive when I tested on my iPhone XS as it was bigger than the view width. Hence, I changed the image width to be 100% and the height to be auto. The images are now responsive on the devices that I tested out on. On the features page, the footer, particularly the social media links moved to the next line due to the container.
 
--My copyrigt portion on the footer seemed to shift to the right when I tested it on my iPad mini while it looked fine on the other devices. Hence, I tried to troubleshoot from my iPad. There were several layers of paddings/margins so I removed it and adjusted accoringly. 
+-My copyright portion on the footer seemed to shift to the right when I tested it on my iPad mini while it looked fine on the other devices. Hence, I tried to troubleshoot from my iPad. There were several layers of paddings/margins so I removed it and adjusted accoringly.
+
+Feedback:
+Insert screenshot of your website in mobile mode and in laptop mode.
+
+
+(ii) Test Cases
+
+| Test Case(s)      | Test Description   | Outcome | 
+| :------------- |:-------------| :-------------| 
+| 1    | User should be able to see x number of links on the navigation bar on the homepage. | Pass|
+| 2    | When user clicked on Facebook button on the footer, the page will redirect to (link) | Pass|
 
 All the links on the navbar will link users to the pages that they want to go. At the page that users are at, the navlink will be darker than the rest. When hovered over, the navlinks will have a translucent background to show that user's mouse is at the particular link.
 
 All the social media buttons has been linked directly to artist's instagram page. The facebook icon links to artist's personal faebook page. The twitter logo links to the twitter sign in page (as 2 icons seem to be too little)
 
 Since this is a static website, when users click on the submit button to submit their messages, they will not see their form being sent or being validated.
+
+## Technologies Used
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - This was used to structure the layout of the website and build the pages.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - This was used to beautify the website and to apply styles on the html.
+* [Javascript/JQuery](https://jquery.com) - This is used in conjunction with bootstrap to allow you to place things on your page that would normally require javascript knowledge.
+* [Bootstrap](https://getbootstrap.com) - Bootstrap is used to ease the structuring and styles of some parts of the website.
+* [Google Fonts](https://fonts.google.com/) - GoogleFonts are used to style the texts.
+* [Font Awesome](https://fontawesome.com/) - Icons are taken from font awesome for my navbar, etc.
 
 ## Known Bug/Issues
 ## Deployment
