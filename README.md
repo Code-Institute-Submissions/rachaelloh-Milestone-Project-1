@@ -91,7 +91,7 @@ The website has been tested on **Windows destop/Macbook Air/iPad Mini/iPhone XS/
 
 During the testing process, I found out that:
 
--My images were not responsive when I tested on my iPhone XS as it was bigger than the view width. Hence, I changed the image width to be 100% and the height to be auto. The images are now responsive on the devices that I tested out on. On the features page, the footer, particularly the social media links moved to the next line due to the container.
+-My images were not responsive when I tested on my iPhone XS as it was bigger than the view width. Hence, I changed the image width to be 100% and the height to be auto. The images are now responsive on the devices that I tested out on. On the features page, the footer, particularly the social media links moved to the next line due to the container. Hence, I excluded the container for the footer so that it has more screen space.
 
 -My copyright portion on the footer seemed to shift to the right when I tested it on my iPad mini while it looked fine on the other devices. Hence, I tried to troubleshoot from my iPad. There were several layers of paddings/margins so I removed it and adjusted accoringly.
 
