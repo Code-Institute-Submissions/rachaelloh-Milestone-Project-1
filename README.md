@@ -47,7 +47,7 @@ Find below links for each wireframe I designed for each web page:
 
 -A navbar brand is also included where the logo of the artist is being placed on the left side of the navbar which links to the home page upon clicking.
 
--Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover
+-Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover.
 
 **(i) Index(Home) Page Features**
 
@@ -67,18 +67,25 @@ Find below links for each wireframe I designed for each web page:
 
 -Form header includes an icon where it the text and icon will enlarge upon mouseover and back to normal on mouseout. Submit button changes color when hovered over. 
 
+-When clicked on the submit button, a pop-up message(modal) will prompt users to confirm their submission. They can choose to return or confirm their submission.
+
 **(iii) Features Page Features**
 
 -Container is used for this page to give the left and the right sides of the screen some space while the content in the middle takes up 75% of the screen size.
 
 -A video of his interview is embedded into the “Features” page
 
+**(iv) Gallery Page Features**
+
+-Images are made to be of the same sizes so that it is more standardized and neat for users to move on from one image to another.
+
+-Users can view the images larger when they click on the image.
 
 **Feature(s) for Future Implementation**
 
 -To make images in gallery page more fun by making the images to be of different sizes.
 
--Form to have validation when users click on the submit buttton.
+-Form to have validation when users click on the submit buttton and confirmation to proceed.
 
 ## Testing (Manual)
 (i) Mobile Responsiveness
@@ -90,9 +97,6 @@ During the testing process, I found out that:
 
 -My copyright portion on the footer seemed to shift to the right when I tested it on my iPad mini while it looked fine on the other devices. Hence, I tried to troubleshoot from my iPad. There were several layers of paddings/margins so I removed it and adjusted accoringly.
 
-Feedback:
-Insert screenshot of your website in mobile mode and in laptop mode.
-
 
 (ii) Test Cases
 
@@ -100,18 +104,19 @@ Insert screenshot of your website in mobile mode and in laptop mode.
 | :------------- |:-------------| :-------------| 
 | 1    | Users should be able to see 4 links on the navigation bar on all the pages. | Pass|
 | 2    | At the page that users are at, the navlink will be darker than the rest. When hovered over, the navlinks will have a translucent background to show that user's mouse is at the particular link. | Pass|
-| 3    | When users click on the Home link and navbar brand on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/index.html | Pass|
-| 4    | When users click on Bio link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/bio.html | Pass|
-| 5    | At the form* section in the Bio page, when users hover over the heading and icon, it will be enlarged by 250%. | Pass|
+| 3    | When users click on the Home link and navbar brand on the navigation bar, the page will be redirected to https://rachaelloh.github.io/Milestone-Project-1/index.html | Pass|
+| 4    | When users click on Bio link on the navigation bar, the page will be redirected to https://rachaelloh.github.io/Milestone-Project-1/bio.html | Pass|
+| 5    | At the form section in the Bio page, when users hover over the heading and icon, it will be enlarged by 250%. | Pass|
 | 6    | At the form section in the Bio page, when users hover over the submit button, it will change color. | Pass|
-| 7    | When users click on Features link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/features.html | Pass|
-| 8    | At the Features page, the video will play when users click the play button. | Pass|
-| 9    | When users click on Gallery link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/gallery.html | Pass|
-| 10   | When users click on Facebook button on the footer, the page will redirect to [Jonathan's Facebook](https://www.facebook.com/jonathanlimyongern) | Pass|
-| 11   | When users click on Instagram button on the footer, the page will redirect to [Jonathan's Instagram](https://www.instagram.com/whereartjon/?hl=en) | Pass|
-| 12   | When users click on Twitter** button on the footer, the page will redirect to [Twitter Sign-in Page](https://twitter.com/?lang=en) | Pass|
+| 7    | At the form section in the Bio page, when users click on the submit* button, a message will pop out to prompt users if they want to confirm their submission. | Pass|
+| 8    | When users click on Features link on the navigation bar, the page will be redirected to https://rachaelloh.github.io/Milestone-Project-1/features.html | Pass|
+| 9    | At the Features page, the video will play when users click the play button. | Pass|
+| 10   | When users click on Gallery link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/gallery.html | Pass|
+| 11   | When users click on Facebook button on the footer, the page will be redirected to [Jonathan's Facebook](https://www.facebook.com/jonathanlimyongern) | Pass|
+| 12   | When users click on Instagram button on the footer, the page will be redirected to [Jonathan's Instagram](https://www.instagram.com/whereartjon/?hl=en) | Pass|
+| 13   | When users click on Twitter** button on the footer, the page will be redirected to [Twitter Sign-in Page](https://twitter.com/?lang=en) | Pass|
 
-*Since this is a static website, when users click on the submit button to submit their messages, they will not see their form being sent or being validated.
+*Since this is a static website, when users click on the submit button to submit their messages, there will be a pop-up message. However, even when they click on the confirm button, they will not see their form being sent or being validated. The message will be closed when users click on either buttons (return/submit)
 
 **The twitter logo links to the twitter sign in page and was included as a 3rd icon as 2 icons seemed to be too little.
 
@@ -122,7 +127,6 @@ Insert screenshot of your website in mobile mode and in laptop mode.
 * [Google Fonts](https://fonts.google.com/) - GoogleFonts are used to style the texts.
 * [Font Awesome](https://fontawesome.com/) - Icons are taken from font awesome for my navbar, etc.
 
-## Known Bug/Issues
 ## Deployment
 My code was written using [AWS Cloud9](https://aws.amazon.com/cloud9/). AWS Cloud9 serves as the local repository which was then deployed to GitHub. Whenever a new commit is done to the master branch, the deployed site will be updated accordingly. To access the project on Github I would visit the GitHub web page and select rachaelloh/milestone-project. I will then click on settings and click master branch. When the master branch is selected, the deployed website will then be available as a clickable link.
 
