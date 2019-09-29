@@ -99,14 +99,22 @@ Insert screenshot of your website in mobile mode and in laptop mode.
 
 | Test Case(s)      | Test Description   | Outcome | 
 | :------------- |:-------------| :-------------| 
-| 1    | User should be able to see 4 links on the navigation bar on all the pages. | Pass|
-| 2    | When user clicked on Facebook button on the footer, the page will redirect to (link) | Pass|
+| 1    | Users should be able to see 4 links on the navigation bar on all the pages. | Pass|
+| 2    | At the page that users are at, the navlink will be darker than the rest. When hovered over, the navlinks will have a translucent background to show that user's mouse is at the particular link. | Pass|
+| 3    | When users click on the Home link and navbar brand on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/index.html | Pass|
+| 4    | When users click on Bio link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/bio.html | Pass|
+| 5    | At the form* section in the Bio page, when users hover over the heading and icon, it will be enlarged by 250%. | Pass|
+| 6    | At the form section in the Bio page, when users hover over the submit button, it will change color. | Pass|
+| 7    | When users click on Features link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/features.html | Pass|
+| 8    | At the Features page, the video will play when users click the play button. | Pass|
+| 9    | When users click on Gallery link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/gallery.html | Pass|
+| 10   | When users click on Facebook button on the footer, the page will redirect to [Jonathan's Facebook](https://www.facebook.com/jonathanlimyongern) | Pass|
+| 11   | When users click on Instagram button on the footer, the page will redirect to [Jonathan's Instagram](https://www.instagram.com/whereartjon/?hl=en) | Pass|
+| 12   | When users click on Twitter** button on the footer, the page will redirect to [Twitter Sign-in Page](https://twitter.com/?lang=en) | Pass|
 
-All the links on the navbar will link users to the pages that they want to go. At the page that users are at, the navlink will be darker than the rest. When hovered over, the navlinks will have a translucent background to show that user's mouse is at the particular link.
+*Since this is a static website, when users click on the submit button to submit their messages, they will not see their form being sent or being validated.
 
-All the social media buttons has been linked directly to artist's instagram page. The facebook icon links to artist's personal faebook page. The twitter logo links to the twitter sign in page (as 2 icons seem to be too little)
-
-Since this is a static website, when users click on the submit button to submit their messages, they will not see their form being sent or being validated.
+**The twitter logo links to the twitter sign in page and was included as a 3rd icon as 2 icons seemed to be too little.
 
 ## Technologies Used
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - This was used to structure the layout of the website and build the pages.
