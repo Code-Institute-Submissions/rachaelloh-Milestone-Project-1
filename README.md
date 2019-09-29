@@ -33,53 +33,49 @@ Features page- Some of the featured artist’s work will be shown in this page +
 Gallery page- More of artist’s artworks 
 
 (i) Wireframes
-Find below links for each wireframe I designed for each web page:
-[Wireframe Document](https://www.google.com)
-Upload onto your google drive, get a sharable link
 
-[Index & Bio Page]()
+Find below links for each wireframe I designed for each web page:
+
+[Index & Bio Page](https://drive.google.com/open?id=13e6HyenNtnwxMUeRcYh14zuUmDva5nRX)
+
+[Features & Gallery Page](https://drive.google.com/open?id=17LYiqDgy17TLKDvTUws9z8Pv0qvjiESR)
 
 
 ## Project Skeleton - Features
 **Existing Features**
 
-Homepage
-Features
--
--
--
-
-Contact Page
--
--
--
-
-
 -Basic styling of the website was taken from bootstrap which was further customized to suit the accessibility and aesthetics of the website. Stylings out of bootstrap was done through the use of CSS.
 
 -Favicon placed in header of every page as an iconic image that represents the website, in this case it is about an artist, Jonathan Lim. The icon appears at the address bar of the web browser.
-
--Background attachment of artist’s work, another background attachment of artist with a short “About” section to introduce the artist, form at the bottom of page
-
--Animations used in the home page to display quotes by the artist, to evoke user’s interest in wanting to find out more about the artist and his work.
-
--Font used in quotes was selected to project the artistic feel of the website and easily captures the attention of users.
 
 -The navbar has a fixed top so that it is more user friendly as users can easily access to the different pages without having to scroll back to the top.
 
 -A navbar brand is also included where the logo of the artist is being placed on the left side of the navbar which links to the home page upon clicking.
 
--Carousel is used in the “Home” page to as a way of introduction to the artist.
+-Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover
+
+(i) Index(Home) Page Features
 
 -Icons are added in front of each navlink buttons to give more aesthetics to the website.
+
+-Carousel is used in the “Home” page to as a way of introduction to the artist.
+
+-Font used in quotes was selected to project the artistic feel of the website and easily captures the attention of users.
+
+-Animations used in the home page to display quotes by the artist, to evoke user’s interest in wanting to find out more about the artist and his work.
+
+(ii) Bio Page Features
+
+-Background attachment of artist’s work, another background attachment of artist with a short “About” section to introduce the artist, form at the bottom of page
 
 -Background attachments- alternation between fixed and scroll properties give an interesting effect to attract users.
 
 -Form header includes an icon where it the text and icon will enlarge upon mouseover and back to normal on mouseout. Submit button changes color when hovered over. 
 
+(iii) Features Page Features
+
 -A video of his interview will be embedded into the “Features” page
 
--Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover
 
 **Feature(s) for Future Implementation**
 
@@ -87,7 +83,7 @@ Contact Page
 
 ## Testing (Manual)
 (i) Mobile Responsiveness
-The website has been tested on **Windows destop/Macbook Air/iPad Mini/iPhone XS/iPhone 6** which covers various screen-size. The browsers used for testings are Google Chrome & Apple Safari.
+The website has been tested on **Windows desktop/Macbook Air/iPad Mini/iPhone XS/iPhone 6** which covers various screen-size. The browsers used for testings are Google Chrome & Apple Safari.
 
 During the testing process, I found out that:
 
@@ -103,7 +99,7 @@ Insert screenshot of your website in mobile mode and in laptop mode.
 
 | Test Case(s)      | Test Description   | Outcome | 
 | :------------- |:-------------| :-------------| 
-| 1    | User should be able to see x number of links on the navigation bar on the homepage. | Pass|
+| 1    | User should be able to see 4 links on the navigation bar on all the pages. | Pass|
 | 2    | When user clicked on Facebook button on the footer, the page will redirect to (link) | Pass|
 
 All the links on the navbar will link users to the pages that they want to go. At the page that users are at, the navlink will be darker than the rest. When hovered over, the navlinks will have a translucent background to show that user's mouse is at the particular link.
@@ -115,7 +111,6 @@ Since this is a static website, when users click on the submit button to submit 
 ## Technologies Used
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - This was used to structure the layout of the website and build the pages.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - This was used to beautify the website and to apply styles on the html.
-* [Javascript/JQuery](https://jquery.com) - This is used in conjunction with bootstrap to allow you to place things on your page that would normally require javascript knowledge.
 * [Bootstrap](https://getbootstrap.com) - Bootstrap is used to ease the structuring and styles of some parts of the website.
 * [Google Fonts](https://fonts.google.com/) - GoogleFonts are used to style the texts.
 * [Font Awesome](https://fontawesome.com/) - Icons are taken from font awesome for my navbar, etc.
