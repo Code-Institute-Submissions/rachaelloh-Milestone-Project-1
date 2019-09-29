@@ -89,8 +89,30 @@
     <textarea id="message" class="input col-md-8" name="message" rows="8" cols="50" placeholder="Please type here..."></textarea><br />
   </div>
   
-  <button type="submit" class="button-submit">Submit</button>
-</form>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary button-submit" data-toggle="modal" data-target="#exampleModal">
+  Submit
+</button>
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form Submission</h5>
+        <button type="button" class="close" data-dismiss="modal">
+        </button>
+      </div>
+      <div class="modal-body">
+        Ready to submit your message?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Return</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         </div>  
         </div>

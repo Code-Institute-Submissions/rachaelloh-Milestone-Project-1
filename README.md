@@ -12,14 +12,9 @@ A live website can be found here https://rachaelloh.github.io/Milestone-Project-
 | User Stories        | Description   |  
 | :------------- |:-------------| 
 | 1    | As a local artiste (singer/songwriter), I am looking for a potential collaboration with an artist for my album cover.|
-
--As a local artiste (singer/songwriter), I am looking for a potential collaboration with an artist for my album cover.  
-
--As a person who does not know about this artist’s works, I want to know who he is and the inspirations behind his pieces.
-
--As a Singaporean, I am interested to find out more about local productions.
-
--As a supporter, I wish to be kept updated of his works and upcoming exhibitions where I can go for. 
+| 2    | As a person who does not know about this artist’s works, I want to know who he is and the inspirations behind his pieces.|
+| 3    | As a Singaporean, I am interested to find out more about local productions.|
+| 4    | As a supporter, I wish to be kept updated of his works and upcoming exhibitions where I can go for.|
 
 ### Project Scope
 The website will be designed based on the identified goals and hence placed in the following sections:
@@ -54,7 +49,7 @@ Find below links for each wireframe I designed for each web page:
 
 -Footer with icons links to social medias of the artist so that users can find out and follow the artist through other platforms. Icons will rotate and change color upon mouseover
 
-(i) Index(Home) Page Features
+**(i) Index(Home) Page Features**
 
 -Icons are added in front of each navlink buttons to give more aesthetics to the website.
 
@@ -64,22 +59,26 @@ Find below links for each wireframe I designed for each web page:
 
 -Animations used in the home page to display quotes by the artist, to evoke user’s interest in wanting to find out more about the artist and his work.
 
-(ii) Bio Page Features
+**(ii) Bio Page Features**
 
--Background attachment of artist’s work, another background attachment of artist with a short “About” section to introduce the artist, form at the bottom of page
+-Background attachment of artist’s work, another background attachment of artist with a short “About” section to introduce the artist.
 
 -Background attachments- alternation between fixed and scroll properties give an interesting effect to attract users.
 
 -Form header includes an icon where it the text and icon will enlarge upon mouseover and back to normal on mouseout. Submit button changes color when hovered over. 
 
-(iii) Features Page Features
+**(iii) Features Page Features**
 
--A video of his interview will be embedded into the “Features” page
+-Container is used for this page to give the left and the right sides of the screen some space while the content in the middle takes up 75% of the screen size.
+
+-A video of his interview is embedded into the “Features” page
 
 
 **Feature(s) for Future Implementation**
 
 -To make images in gallery page more fun by making the images to be of different sizes.
+
+-Form to have validation when users click on the submit buttton.
 
 ## Testing (Manual)
 (i) Mobile Responsiveness
