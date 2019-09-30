@@ -112,13 +112,15 @@ During the testing process, I found out that:
 | 8    | When users click on Features link on the navigation bar, the page will be redirected to https://rachaelloh.github.io/Milestone-Project-1/features.html | Pass|
 | 9    | At the Features page, the video will play when users click the play button. | Pass|
 | 10   | When users click on Gallery link on the navigation bar, the page will redirect to https://rachaelloh.github.io/Milestone-Project-1/gallery.html | Pass|
-| 11   | When users click on Facebook button on the footer, the page will be redirected to [Jonathan's Facebook](https://www.facebook.com/jonathanlimyongern) | Pass|
+| 11   | When users click on Facebook** button on the footer, the page will be redirected to [Jonathan's Facebook](https://www.facebook.com/jonathanlimyongern) | Pass|
 | 12   | When users click on Instagram button on the footer, the page will be redirected to [Jonathan's Instagram](https://www.instagram.com/whereartjon/?hl=en) | Pass|
 | 13   | When users click on Twitter** button on the footer, the page will be redirected to [Twitter Sign-in Page](https://twitter.com/?lang=en) | Pass|
 
 *Since this is a static website, when users click on the submit button to submit their messages, there will be a pop-up message. However, even when they click on the confirm button, they will not see their form being sent or being validated. The message will be closed when users click on either buttons (return/submit)
 
-**The twitter logo links to the twitter sign in page and was included as a 3rd icon as 2 icons seemed to be too little.
+**Users need to be logged into facebook before clicking on the link in order to have access to the Jonathan's facebook page. Otherwise, it will be shown as a broken link/error.
+
+***The twitter logo links to the twitter sign in page and was included as a 3rd icon as 2 icons seemed to be too little.
 
 ## Technologies Used
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - This was used to structure the layout of the website and build the pages.
