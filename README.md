@@ -145,7 +145,9 @@ Bootstrap - I used some some codes from bootstrap such as the navbar and carouse
 
 ### Media
 
-The images and background images/attachments used were taken from artist's [instagram](https://www.instagram.com/whereartjon/?hl=en) page.
+The images and background images/attachments used were taken from artist's [instagram](https://www.instagram.com/whereartjon/?hl=en) page and have been resized.
+
+Artist is a personal friend of mine.
 
 ### Design
 Homepage inspirations from https://liamd88.github.io/milestone-project-1-eminem/
